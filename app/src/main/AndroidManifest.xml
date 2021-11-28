@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.pictureframe">
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<!--    앱이 권한이 필요함을 선언함.-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
